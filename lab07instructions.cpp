@@ -10,13 +10,14 @@
 using namespace std;
 // Global area & function prototypes
 // declare an integer constant named COLUMNS and initialize to 3
-
-void getValues(int[][???],int);
-void printArray(int[][???],int);
+const int COLUMNS = 3;
+void getValues(int[][COLUMNS],int);
+void printArray(int[][COLUMNS],int);
 void personalInfo();
 
 int main(){
 	// declare an integer constant named ROWS and initialize to 3
+
 
 	// declare a two-dimensional intege array named twoDim
 	// use the two constants respectively for the array's size
